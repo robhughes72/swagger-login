@@ -1,0 +1,10 @@
+#test.json
+{
+ "url": "<ATTACKER_CONTROLLED_HOST>/test.yaml",
+ "urls": [
+ {
+ "url": "<ATTACKER_CONTROLLED_HOST>/test.yaml",
+ "name": "Test"
+ }
+ ]
+}
