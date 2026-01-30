@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: "Example API Test"
+  description: "A simple example for testing."
+servers:
+  - url: "https://example.com/api"
+paths:
+  /hello:
+    get:
+      summary: "Returns a greeting"
+      responses:
+        '200':
+          description: "Successful response"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Hello, World!"
