@@ -1,9 +1,9 @@
 #test.json
 {
- "url": "<ATTACKER_CONTROLLED_HOST>/test.yaml",
+ "url": "https://raw.githubusercontent.com/robhughes72/swagger-login/refs/heads/main/test.yaml",
  "urls": [
  {
- "url": "<ATTACKER_CONTROLLED_HOST>/test.yaml",
+ "url": "https://raw.githubusercontent.com/robhughes72/swagger-login/refs/heads/main/test.yaml",
  "name": "Test"
  }
  ]
